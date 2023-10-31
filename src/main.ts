@@ -33,11 +33,7 @@ const generateTodos = (title:string , isCompleted:boolean , id:string) => {
     check.setAttribute("type" , "checkbox");
     check.className = "checked"
     check.checked = isCompleted;
-    check.onchange = (elem) => {
-    
-        
-     
-        
+    check.onchange = () => {
        todo.className = check.checked? "div-complete" : "div-incomplete"
     }
 
