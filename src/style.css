@@ -17,10 +17,13 @@
 .checked{
 margin-right: 15px;
 width: 30px;
+height: 25px;
+width: 25px;
+background-color: #eee;
 }
 
 .div-incomplete{
-  background-color: rgb(243, 138, 138);
+
   margin: 25px 20px;
   display: flex;
   justify-content: center;
@@ -28,15 +31,16 @@ width: 30px;
   font-weight: 400;
   font-size: 28px;
   padding: 25px;
+  border:2px solid black
 }
 
 .div-complete{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(102, 255, 102);
+  border:2px solid black;
   margin: 25px 20px;
   font-weight: 400;
   font-size: 28px;
-  padding: 35px;
+  padding: 25px;
 }

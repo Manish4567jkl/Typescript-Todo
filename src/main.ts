@@ -33,8 +33,12 @@ const generateTodos = (title:string , isCompleted:boolean , id:string) => {
     check.setAttribute("type" , "checkbox");
     check.className = "checked"
     check.checked = isCompleted;
-    check.onchange = () => {
-
+    check.onchange = (elem) => {
+    
+        
+     
+        
+       todo.className = check.checked? "div-complete" : "div-incomplete"
     }
 
     const p:HTMLParagraphElement = document.createElement("p");
